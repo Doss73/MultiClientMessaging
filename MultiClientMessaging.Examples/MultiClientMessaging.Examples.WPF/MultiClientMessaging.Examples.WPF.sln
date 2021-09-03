@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiClientMessaging.Examples.WPF", "MultiClientMessaging.Examples.WPF\MultiClientMessaging.Examples.WPF.csproj", "{3CFA2261-A430-4C84-A6B0-0EB0B62074FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagesLibrary", "..\MessagesLibrary\MessagesLibrary.csproj", "{4135C3DE-7CBA-4720-898A-1F94F056A575}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiClientMessaging.Client", "..\..\MultiClientMessaging\MultiClientMessaging.Client.csproj", "{537C2024-4881-42BB-9624-1BA6E5CD7256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CFA2261-A430-4C84-A6B0-0EB0B62074FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFA2261-A430-4C84-A6B0-0EB0B62074FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFA2261-A430-4C84-A6B0-0EB0B62074FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFA2261-A430-4C84-A6B0-0EB0B62074FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4135C3DE-7CBA-4720-898A-1F94F056A575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4135C3DE-7CBA-4720-898A-1F94F056A575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4135C3DE-7CBA-4720-898A-1F94F056A575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4135C3DE-7CBA-4720-898A-1F94F056A575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{537C2024-4881-42BB-9624-1BA6E5CD7256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537C2024-4881-42BB-9624-1BA6E5CD7256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537C2024-4881-42BB-9624-1BA6E5CD7256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537C2024-4881-42BB-9624-1BA6E5CD7256}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFBD7913-69E8-4BBC-9A9A-7C5C4703C5F5}
+	EndGlobalSection
+EndGlobal
