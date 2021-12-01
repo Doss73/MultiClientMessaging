@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace MultiClientMessaging.Client.Messenger
 {
+    //TODO: Test issue
     public class ClientToClientMessenger: IClientToClientMesseneger
     {
         readonly SignalRConnection _signalRConnection;
